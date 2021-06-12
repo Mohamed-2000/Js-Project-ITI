@@ -136,6 +136,7 @@ home.onclick = function myFunction() {
   SecondContainer.style.display = "none";
   contactContainer.style.display = "none";
   aboutSection.style.display = "none";
+  cartSegment.style.display = "none";
   display_container.style.display = "flex";
 }
 
@@ -146,8 +147,8 @@ contactbutton.onclick = function showContact() {
   SecondContainer.style.display = "none";
   display_container.style.display = "none";
   aboutSection.style.display = "none";
+  cartSegment.style.display = "none";
   contactContainer.style.display = "block";
-
 }
 
 function check() {
@@ -200,22 +201,20 @@ aboutNav.onclick = function showAbout() {
     SecondContainer.style.display = "none";
     display_container.style.display = "none";
     contactContainer.style.display = "none";
-    aboutSection.style.display = "block";
     cartSegment.style.display = "none";
-
+    aboutSection.style.display = "block";
 }
 
 ShopeButton.onclick = function backToHome() {
   SecondContainer.style.display = "none";
-  display_container.style.display = "flex";
   contactContainer.style.display = "none";
   aboutSection.style.display = "none";
   cartSegment.style.display = "none";
+  display_container.style.display = "flex";
 }
 // End About Segment 
 
 // Start Add To cart Segment
-
 
 myCartNav.onclick = function backToHome() {
   SecondContainer.style.display = "none";
